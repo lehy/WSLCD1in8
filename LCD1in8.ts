@@ -49,10 +49,10 @@ namespace LCD1IN8{
 
     //% blockId=LCD_DisplayWindows
     //% blockGap=8
-    //% block="Afficher les données d'affichage de la fenêtre |Début X %Début X|Début Y %Début Y|Fin X %Fin X|Fin Y %Fin Y "
+    //% block="Afficher les données d'affichage de la fenêtre |Début X %Xstart|Début Y %Xstart|Fin X %Xend|Fin Y %Yend "
     //% shim=LCD1IN8::LCD_DisplayWindows
-    //% Début X.min=1 Début X.max=160 Début Y.min=1 Début Y.max=128
-    //% Fin X.min=1 Fin X.max=160 Fin Y.min=1 Fin Y.max=128
+    //% Xstart.min=1 Xstart.max=160 Ystart.min=1 Ystart.max=128
+    //% Xend.min=1 Xend.max=160 Yend.min=1 Yend.max=128
     //% weight=189
     export function LCD_DisplayWindows(Xstart: number, Ystart: number, Xend: number, Yend: number): void {
         return;
