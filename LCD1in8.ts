@@ -68,7 +68,7 @@ namespace LCD1IN8{
 
     //% blockId=LCD_SetBL
     //% blockGap=8
-    //% block="Set back light level %Lev"
+    //% block="Niveau de la luminosité %Lev"
     //% Lev.min=0 Lev.max=10
     //% shim=LCD1IN8::LCD_SetBL
     //% weight=180
