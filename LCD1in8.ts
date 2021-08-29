@@ -49,7 +49,7 @@ namespace LCD1IN8{
 
     //% blockId=LCD_DisplayWindows
     //% blockGap=8
-    //% block="Afficher les données d'affichage de la fenêtre |Début X %Xstart|Début Y %Xstart|Fin X %Xend|Fin Y %Yend "
+    //% block="Afficher les données d'affichage de la fenêtre |Début X %Xstart|Début Y %Ystart|Fin X %Xend|Fin Y %Yend "
     //% shim=LCD1IN8::LCD_DisplayWindows
     //% Xstart.min=1 Xstart.max=160 Ystart.min=1 Ystart.max=128
     //% Xend.min=1 Xend.max=160 Yend.min=1 Yend.max=128
