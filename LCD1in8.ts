@@ -13,7 +13,7 @@ namespace LCD1IN8{
 
     //% blockId=LCD_Init
     //% blockGap=8
-    //% block="LCD1IN8 Init toto"
+    //% block="Démarrer l'écran"
     //% shim=LCD1IN8::LCD_Init
     //% weight=200
     export function LCD_Init(): void {
@@ -22,7 +22,7 @@ namespace LCD1IN8{
 
     //% blockId=LCD_Clear
     //% blockGap=8
-    //% block="Clear screen and cache"
+    //% block="Effacer l'écran"
     //% shim=LCD1IN8::LCD_Clear
     //% weight=195
     export function LCD_Clear(): void {
@@ -31,7 +31,7 @@ namespace LCD1IN8{
 
     //% blockId=LCD_Filling
     //% blockGap=8
-    //% block="Filling Color %Color"
+    //% block="Couleur de fond %Color"
     //% shim=LCD1IN8::LCD_Filling
     //% weight=194
     export function LCD_Filling(Color: number): void {
@@ -40,7 +40,7 @@ namespace LCD1IN8{
 
     //% blockId=LCD_Display
     //% blockGap=8
-    //% block="Send display data"
+    //% block="Envoyer les données"
     //% shim=LCD1IN8::LCD_Display
     //% weight=190
     export function LCD_Display(): void {
@@ -49,10 +49,10 @@ namespace LCD1IN8{
 
     //% blockId=LCD_DisplayWindows
     //% blockGap=8
-    //% block="Show Windows display data |Xstart %Xstart|Ystart %Ystart|Xend %Xend|Yend %Yend "
+    //% block="Afficher les données d'affichage de la fenêtre |Début X %Début X|Début Y %Début Y|Fin X %Fin X|Fin Y %Fin Y "
     //% shim=LCD1IN8::LCD_DisplayWindows
-    //% Xstart.min=1 Xstart.max=160 Ystart.min=1 Ystart.max=128
-    //% Xend.min=1 Xend.max=160 Yend.min=1 Yend.max=128
+    //% Début X.min=1 Début X.max=160 Début Y.min=1 Début Y.max=128
+    //% Fin X.min=1 Fin X.max=160 Fin Y.min=1 Fin Y.max=128
     //% weight=189
     export function LCD_DisplayWindows(Xstart: number, Ystart: number, Xend: number, Yend: number): void {
         return;
